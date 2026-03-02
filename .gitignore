@@ -1,8 +1,12 @@
-Library/
-Temp/
-Obj/
-Build/
-Builds/
-Logs/
+# macOS
+.DS_Store
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
 UserSettings/
-MemoryCaptures/
+
+# Crash logs
+mono_crash*.json
