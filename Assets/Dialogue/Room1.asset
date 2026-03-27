@@ -16,7 +16,7 @@ MonoBehaviour:
   - Begin cognitive testing
   - The order is found within the room
   hint:
-  - 
-  - Hint here
+  - "The answers lie within the chest\t"
+  - 'Your first solution lies within time and dates '
   completion:
   - Proceed to the next room
