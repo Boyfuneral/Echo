@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Fonts.meta
 guid: 60cf5565b129db1478b8a597458251b2
+========
+guid: 3ffef2e7a69312d4ea3c760760577b2d
+>>>>>>>> Andrew-Room1:Assets/ArtPlaceholder.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
