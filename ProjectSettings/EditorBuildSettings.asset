@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 646c54d8b343fdd45aa52e771dd66202
-  - enabled: 1
+  - enabled: 0
     path: Assets/GameScene.unity
     guid: 4be36acdde7d839428d2587e2963d4bd
+  - enabled: 1
+    path: Assets/Scenes/Room1.unity
+    guid: 74c321e96a4878e40a4b361ade73dbfd
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: a32d774e8312cd945a12fa4bbf47f1ca, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
