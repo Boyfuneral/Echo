@@ -18,13 +18,13 @@ public class MainMenu : MonoBehaviour
     public void SelectSlot1()
     {
         Debug.Log("Slot 1 selected");
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Room1");
     }
 
     public void SelectSlot2()
     {
         Debug.Log("Slot 2 Selected");
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Room1");
     }
 
     public void CloseSavePanel()

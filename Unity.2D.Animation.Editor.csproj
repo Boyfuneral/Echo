@@ -118,8 +118,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7396d8477ca9\Editor\SpriteLib\SpriteLibraryEditor\DragAndDropData.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7396d8477ca9\Editor\SkinningModule\Selection\SerializableSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7396d8477ca9\Editor\SkinningModule\WeightPainterTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@7396d8477ca9\Editor\SkinningModule\SpriteMeshData\SpriteMeshDataController.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7396d8477ca9\Editor\SkinningModule\SkinningCache\TransformCacheExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@7396d8477ca9\Editor\SkinningModule\SpriteMeshData\SpriteMeshDataController.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7396d8477ca9\Editor\SpriteLib\SpriteLibraryEditor\UI\CategoriesTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7396d8477ca9\Editor\SkinningModule\SkinningCache\SkeletonCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7396d8477ca9\Editor\SkinningModule\Selectors\ICircleSelector.cs" />

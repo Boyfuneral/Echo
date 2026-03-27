@@ -56,6 +56,7 @@
     <Compile Include="Assets\GameLogic\Interactables\ChestPuzzleUI.cs" />
     <Compile Include="Assets\Dialogue\DialogueManager.cs" />
     <Compile Include="Assets\GameLogic\InteractableHighlight.cs" />
+    <Compile Include="Assets\Menu\MainMenu.cs" />
     <Compile Include="Assets\GameLogic\MouseInteractManager.cs" />
     <Compile Include="Assets\GameLogic\PuzzleManager.cs" />
     <Compile Include="Assets\GameLogic\Interactables\StrapInteract.cs" />
