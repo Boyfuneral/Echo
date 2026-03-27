@@ -66,7 +66,6 @@
     <Compile Include="Assets\GameLogic\RoomController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\GameLogic\Interactables\ChestInteract.cs" />
-    <Compile Include="Assets\GameLogic\RoomTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
