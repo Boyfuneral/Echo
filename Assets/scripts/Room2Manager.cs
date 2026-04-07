@@ -54,6 +54,7 @@ public class Room2Manager : MonoBehaviour
         // Capture correct symmetry state
         for (int i = 0; i < pairs.Length; i++)
             pairs[i].Capture();
+            
 
         // Pick faulty pair and apply mismatch
         faultyIndex = Random.Range(0, pairs.Length);

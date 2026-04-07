@@ -9,15 +9,15 @@ public class PuzzleUI : MonoBehaviour
     public GameObject barrierToUnlock;
 
     [Header("Old Choice Buttons")]
-    public GameObject choiceButtonGroup;   // Tree / Vine / Clock buttons group
+    public GameObject choiceButtonGroup;
 
     [Header("Word Puzzle UI")]
-    public GameObject wordPuzzleGroup;     // parent object for word puzzle UI
+    public GameObject wordPuzzleGroup;
     public TextMeshProUGUI puzzleWordText;
     public TMP_InputField answerInput;
+    public TextMeshProUGUI puzzleQuestionText;
 
-    private string correctAnswer = "TIME";
-    private string backwardWord = "EMIT";
+    private int puzzleStage = 0;
 
     void Start()
     {
@@ -29,6 +29,17 @@ public class PuzzleUI : MonoBehaviour
 
         if (wordPuzzleGroup != null)
             wordPuzzleGroup.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            if (puzzleBox != null && puzzleBox.activeSelf)
+            {
+                CheckWordAnswer();
+            }
+        }
     }
 
     public void OpenPuzzle()
@@ -72,39 +83,81 @@ public class PuzzleUI : MonoBehaviour
         if (wordPuzzleGroup != null)
             wordPuzzleGroup.SetActive(true);
 
+        if (puzzleQuestionText != null)
+            puzzleQuestionText.text = "Something about time is reversed.";
+
         if (puzzleWordText != null)
-            puzzleWordText.text = backwardWord;
+            puzzleWordText.text = "EMIT";
 
         if (answerInput != null)
         {
             answerInput.text = "";
             answerInput.ActivateInputField();
         }
+
+        puzzleStage = 0;
     }
 
     public void CheckWordAnswer()
+{
+    if (answerInput == null) return;
+
+    string playerAnswer = answerInput.text.Trim().ToUpper();
+
+    // Stage 0: EMIT -> TIME
+    if (puzzleStage == 0 && playerAnswer == "TIME")
     {
-        if (answerInput == null) return;
+        puzzleStage = 1;
 
-        string playerAnswer = answerInput.text.Trim().ToUpper();
+        if (puzzleQuestionText != null)
+            puzzleQuestionText.text = "Time moves in cycles...";
 
-        if (playerAnswer == correctAnswer)
-        {
-            if (resultText != null)
-                resultText.text = "Correct. The clock has been restored.";
+        if (puzzleWordText != null)
+            puzzleWordText.text = "3 → 6 → 9 → ?";
 
-            if (barrierToUnlock != null)
-                barrierToUnlock.SetActive(false);
+        if (resultText != null)
+            resultText.text = "";
 
-            Invoke(nameof(ClosePuzzle), 1.5f);
-        }
-        else
-        {
-            if (resultText != null)
-                resultText.text = "That is not correct.";
-        }
+        answerInput.text = "";
+        answerInput.ActivateInputField();
+        return;
     }
 
+    // Stage 1: cycle answer
+    if (puzzleStage == 1 && playerAnswer == "12")
+    {
+        puzzleStage = 2;
+
+        if (puzzleQuestionText != null)
+            puzzleQuestionText.text = "Where does the cycle begin?";
+
+        if (puzzleWordText != null)
+            puzzleWordText.text = "Enter the frozen hour.";
+
+        if (resultText != null)
+            resultText.text = "";
+
+        answerInput.text = "";
+        answerInput.ActivateInputField();
+        return;
+    }
+
+   
+    if (puzzleStage == 2 && playerAnswer == "3")
+    {
+        if (resultText != null)
+            resultText.text = "The barrier yields.";
+
+        if (barrierToUnlock != null)
+            barrierToUnlock.SetActive(false);
+
+        Invoke(nameof(ClosePuzzle), 1.5f);
+        return;
+    }
+
+    if (resultText != null)
+        resultText.text = "That is not correct.";
+}
     public void ClosePuzzle()
     {
         if (puzzleBox != null)
