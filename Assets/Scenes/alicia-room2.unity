@@ -2222,7 +2222,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 976595236}
   dialogueText: {fileID: 1512740966}
   puzzleUI: {fileID: 1372828838}
-  message: Press E to speak
+  message: This forest follows rules. Learn them, and you can move forward.
 --- !u!1 &701700539
 GameObject:
   m_ObjectHideFlags: 0
@@ -2729,10 +2729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterText
   textComponent: {fileID: 800983330}
-  fullText: '"The Lights will guide you.....if you fail, you will not return"'
-  typingSpeed: 0.07
-  displayTime: 2
-  canvasGroup: {fileID: 976595239}
+  typingSpeed: 0.4
 --- !u!114 &800983330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2762,8 +2759,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4279173375
+  m_fontColor: {r: 1, g: 0, b: 0.05809641, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 0
   m_fontColorGradient:
@@ -4071,8 +4068,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -5894,10 +5891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterText
   textComponent: {fileID: 1512740966}
-  fullText: "\u201CThis forest follows rules. Learn them, and you can move forward.\u201D"
-  typingSpeed: 0.07
-  displayTime: 2
-  canvasGroup: {fileID: 976595239}
+  typingSpeed: 0.03
 --- !u!1 &1516679636
 GameObject:
   m_ObjectHideFlags: 0

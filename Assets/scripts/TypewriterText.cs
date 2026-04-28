@@ -5,42 +5,34 @@ using System.Collections;
 public class TypewriterText : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
-    public string fullText;
     public float typingSpeed = 0.05f;
-    public float displayTime = 2f;
-    public CanvasGroup canvasGroup;
 
-    void Start()
+    private Coroutine typingCoroutine;
+
+    void Awake()
     {
+        if (textComponent == null)
+            textComponent = GetComponent<TextMeshProUGUI>();
+
         textComponent.text = "";
     }
 
     public void StartTyping(string newText)
     {
-        StopAllCoroutines();
-        fullText = newText;
-        textComponent.text = "";
-        StartCoroutine(TypeText());
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
+        typingCoroutine = StartCoroutine(TypeText(newText));
     }
 
-    IEnumerator TypeText()
+    IEnumerator TypeText(string newText)
     {
-        foreach (char letter in fullText.ToCharArray())
+        textComponent.text = "";
+
+        foreach (char letter in newText)
         {
             textComponent.text += letter;
             yield return new WaitForSeconds(typingSpeed);
-        }
-
-        yield return new WaitForSeconds(displayTime);
-
-        // Fade out
-        if (canvasGroup != null)
-        {
-            while (canvasGroup.alpha > 0)
-            {
-                canvasGroup.alpha -= Time.deltaTime;
-                yield return null;
-            }
         }
     }
 }

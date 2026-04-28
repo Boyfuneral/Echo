@@ -15,6 +15,8 @@ public class NPCDialogue : MonoBehaviour
     private bool dialogueOpen = false;
     private bool puzzleOpened = false;
 
+    private TypewriterText typewriter;
+
     void Start()
     {
         if (pressEText != null)
@@ -22,6 +24,9 @@ public class NPCDialogue : MonoBehaviour
 
         if (dialogueBox != null)
             dialogueBox.SetActive(false);
+
+        if (dialogueText != null)
+            typewriter = dialogueText.GetComponent<TypewriterText>();
     }
 
     void Update()
@@ -39,7 +44,12 @@ public class NPCDialogue : MonoBehaviour
                     dialogueBox.SetActive(true);
 
                 if (dialogueText != null)
-                    dialogueText.text = message;
+                {
+                    if (typewriter != null)
+                        typewriter.StartTyping(message);
+                    else
+                        dialogueText.text = message;
+                }
             }
             else if (!puzzleOpened)
             {
