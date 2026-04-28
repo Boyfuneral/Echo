@@ -637,7 +637,7 @@ GameObject:
   - component: {fileID: 144921407}
   - component: {fileID: 144921409}
   - component: {fileID: 144921408}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: 6 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -773,9 +773,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203837377}
-  - component: {fileID: 203837379}
   - component: {fileID: 203837380}
-  m_Layer: 15
+  m_Layer: 0
   m_Name: light4hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,20 +796,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 554647713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &203837379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203837376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e58fc5ea1fe645a493b31c4699e48e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LightTrigger
-  puzzleManager: {fileID: 1045687401}
-  puzzleLight: {fileID: 554647711}
 --- !u!61 &203837380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1225,6 +1210,37 @@ Transform:
   - {fileID: 745932533}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &380114010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380114011}
+  m_Layer: 8
+  m_Name: GroundCheck
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &380114011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380114010}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.3, y: -46.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &447919177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,9 +1624,10 @@ GameObject:
   m_Component:
   - component: {fileID: 554647713}
   - component: {fileID: 554647712}
-  - component: {fileID: 554647711}
   - component: {fileID: 554647710}
-  m_Layer: 15
+  - component: {fileID: 554647714}
+  - component: {fileID: 554647715}
+  m_Layer: 0
   m_Name: Light4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1663,25 +1680,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0420358, y: 0.9616691}
   m_EdgeRadius: 0
---- !u!114 &554647711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554647709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dbdc75c7fdb24577a2445683eb3bf3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PuzzleLight
-  lightIndex: 3
-  spriteRenderer: {fileID: 554647712}
-  normalColor: {r: 0.62352943, g: 0.24705882, b: 0.3137255, a: 1}
-  flashColor: {r: 1, g: 0.8467263, b: 0, a: 1}
-  successColor: {r: 0, g: 1, b: 0, a: 1}
-  failColor: {r: 1, g: 0, b: 0, a: 1}
-  hitColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!212 &554647712
 SpriteRenderer:
   serializedVersion: 2
@@ -1727,7 +1725,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1285646975
+  m_SortingLayerID: 441809341
   m_SortingLayer: 8
   m_SortingOrder: 20
   m_MaskInteraction: 0
@@ -1757,6 +1755,39 @@ Transform:
   - {fileID: 203837377}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &554647714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554647709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95df7405f32818e46a0673ac0398d983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleLight
+  lightIndex: 3
+  spriteRenderer: {fileID: 0}
+  normalColor: {r: 0.7, g: 0.2, b: 0.6, a: 1}
+  flashColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  successColor: {r: 0, g: 1, b: 0, a: 1}
+  failColor: {r: 1, g: 0, b: 0, a: 1}
+  hitColor: {r: 0, g: 0, b: 1, a: 1}
+--- !u!114 &554647715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554647709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad561c7453c9364d923666c3d8f2541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightTrigger
+  puzzleManager: {fileID: 1045687401}
+  puzzleLight: {fileID: 554647714}
 --- !u!1 &628603215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,7 +1891,7 @@ GameObject:
   - component: {fileID: 634626616}
   - component: {fileID: 634626618}
   - component: {fileID: 634626619}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: 6
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3230,7 +3261,6 @@ GameObject:
   - component: {fileID: 961739751}
   - component: {fileID: 961739750}
   - component: {fileID: 961739754}
-  - component: {fileID: 961739755}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3388,66 +3418,6 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
---- !u!114 &961739755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 961739749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Postprocessing.Runtime::UnityEngine.Rendering.PostProcessing.PostProcessLayer
-  volumeTrigger: {fileID: 961739753}
-  volumeLayer:
-    serializedVersion: 2
-    m_Bits: 512
-  stopNaNPropagation: 1
-  finalBlitToCameraTarget: 0
-  antialiasingMode: 0
-  temporalAntialiasing:
-    jitterSpread: 0.75
-    sharpness: 0.25
-    stationaryBlending: 0.95
-    motionBlending: 0.85
-  subpixelMorphologicalAntialiasing:
-    quality: 2
-  fastApproximateAntialiasing:
-    fastMode: 0
-    keepAlpha: 0
-  fog:
-    enabled: 1
-    excludeSkybox: 1
-  debugLayer:
-    lightMeter:
-      width: 512
-      height: 256
-      showCurves: 1
-    histogram:
-      width: 512
-      height: 256
-      channel: 3
-    waveform:
-      exposure: 0.12
-      height: 256
-    vectorscope:
-      size: 256
-      exposure: 0.12
-    overlaySettings:
-      linearDepth: 0
-      motionColorIntensity: 4
-      motionGridSize: 64
-      colorBlindnessType: 0
-      colorBlindnessStrength: 1
-  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
-  breakBeforeColorGrading: 0
-  m_BeforeTransparentBundles: []
-  m_BeforeStackBundles: []
-  m_AfterStackBundles: []
 --- !u!1 &970646859
 GameObject:
   m_ObjectHideFlags: 0
@@ -3759,9 +3729,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1012051435}
-  - component: {fileID: 1012051436}
   - component: {fileID: 1012051438}
-  m_Layer: 15
+  m_Layer: 0
   m_Name: light1hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3783,20 +3752,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694716929}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1012051436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012051434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e58fc5ea1fe645a493b31c4699e48e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LightTrigger
-  puzzleManager: {fileID: 1045687401}
-  puzzleLight: {fileID: 1694716926}
 --- !u!61 &1012051438
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3858,7 +3813,7 @@ GameObject:
   - component: {fileID: 1020751964}
   m_Layer: 0
   m_Name: NPC 2
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4019,9 +3974,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1020751958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b220fb37490046debe4dcb2d9d526cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 897301b674bfa9b4d85bd10e42960526, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCTrigger
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogueTrigger
   dialogueBox: {fileID: 1889215002}
   dialogueText: {fileID: 800983330}
   puzzleManager: {fileID: 1045687401}
@@ -4188,14 +4143,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1045687400}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d84e661d474e84918a861898c653903f, type: 3}
+  m_Script: {fileID: 11500000, guid: c7f48a2ddde4eeb41bb834bd13010d0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightPuzzleManager
   lights:
-  - {fileID: 1694716926}
-  - {fileID: 1530797253}
-  - {fileID: 1402840301}
-  - {fileID: 554647711}
+  - {fileID: 1694716930}
+  - {fileID: 1530797257}
+  - {fileID: 1402840305}
+  - {fileID: 554647714}
   currentRound: 1
   maxRounds: 5
   puzzleActive: 0
@@ -5049,33 +5004,15 @@ GameObject:
   - component: {fileID: 1402840304}
   - component: {fileID: 1402840303}
   - component: {fileID: 1402840302}
-  - component: {fileID: 1402840301}
-  m_Layer: 15
+  - component: {fileID: 1402840305}
+  - component: {fileID: 1402840306}
+  m_Layer: 0
   m_Name: Light3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1402840301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402840300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dbdc75c7fdb24577a2445683eb3bf3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PuzzleLight
-  lightIndex: 2
-  spriteRenderer: {fileID: 1402840303}
-  normalColor: {r: 0.627451, g: 0.22745098, b: 0.30588236, a: 1}
-  flashColor: {r: 0.9245283, g: 0.8279156, b: 0, a: 1}
-  successColor: {r: 0, g: 1, b: 0, a: 1}
-  failColor: {r: 1, g: 0, b: 0, a: 1}
-  hitColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!61 &1402840302
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5167,7 +5104,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1285646975
+  m_SortingLayerID: 441809341
   m_SortingLayer: 8
   m_SortingOrder: 20
   m_MaskInteraction: 0
@@ -5197,6 +5134,39 @@ Transform:
   - {fileID: 1492092050}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1402840305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402840300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95df7405f32818e46a0673ac0398d983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleLight
+  lightIndex: 2
+  spriteRenderer: {fileID: 0}
+  normalColor: {r: 0.7, g: 0.2, b: 0.6, a: 1}
+  flashColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  successColor: {r: 0, g: 1, b: 0, a: 1}
+  failColor: {r: 1, g: 0, b: 0, a: 1}
+  hitColor: {r: 0, g: 0, b: 1, a: 1}
+--- !u!114 &1402840306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402840300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad561c7453c9364d923666c3d8f2541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightTrigger
+  puzzleManager: {fileID: 1045687401}
+  puzzleLight: {fileID: 1402840305}
 --- !u!1 &1440785564
 GameObject:
   m_ObjectHideFlags: 0
@@ -5346,24 +5316,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3721423694783163961, guid: 55af4ff6f445845bd92684fc7b3385d1, type: 3}
   m_PrefabInstance: {fileID: 898444223908870456}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1467469414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467469408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8d4f0c3956b94b1fa0fd955f25cc92e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerJump
-  jumpForce: 15
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  groundCheck: {fileID: 2095633596}
-  groundCheckRadius: 0.2
 --- !u!1 &1472620782
 GameObject:
   m_ObjectHideFlags: 0
@@ -5511,9 +5463,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1492092050}
-  - component: {fileID: 1492092051}
   - component: {fileID: 1492092053}
-  m_Layer: 15
+  m_Layer: 0
   m_Name: light3hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5535,20 +5486,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1402840304}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1492092051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492092049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e58fc5ea1fe645a493b31c4699e48e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LightTrigger
-  puzzleManager: {fileID: 1045687401}
-  puzzleLight: {fileID: 1402840301}
 --- !u!61 &1492092053
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5737,9 +5674,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1504684258}
-  - component: {fileID: 1504684260}
   - component: {fileID: 1504684261}
-  m_Layer: 15
+  m_Layer: 0
   m_Name: light2hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5761,20 +5697,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1530797256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1504684260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1504684257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e58fc5ea1fe645a493b31c4699e48e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LightTrigger
-  puzzleManager: {fileID: 1045687401}
-  puzzleLight: {fileID: 1530797253}
 --- !u!61 &1504684261
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6302,33 +6224,15 @@ GameObject:
   - component: {fileID: 1530797256}
   - component: {fileID: 1530797255}
   - component: {fileID: 1530797254}
-  - component: {fileID: 1530797253}
-  m_Layer: 15
+  - component: {fileID: 1530797257}
+  - component: {fileID: 1530797258}
+  m_Layer: 0
   m_Name: Light2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1530797253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530797252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dbdc75c7fdb24577a2445683eb3bf3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PuzzleLight
-  lightIndex: 1
-  spriteRenderer: {fileID: 1530797255}
-  normalColor: {r: 0.6392157, g: 0.19607843, b: 0.28627452, a: 1}
-  flashColor: {r: 0.9528302, g: 0.8132051, b: 0, a: 1}
-  successColor: {r: 0, g: 1, b: 0, a: 1}
-  failColor: {r: 1, g: 0, b: 0, a: 1}
-  hitColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!61 &1530797254
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6420,7 +6324,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1285646975
+  m_SortingLayerID: 441809341
   m_SortingLayer: 8
   m_SortingOrder: 20
   m_MaskInteraction: 0
@@ -6450,6 +6354,39 @@ Transform:
   - {fileID: 1504684258}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1530797257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530797252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95df7405f32818e46a0673ac0398d983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleLight
+  lightIndex: 1
+  spriteRenderer: {fileID: 0}
+  normalColor: {r: 0.7, g: 0.2, b: 0.6, a: 1}
+  flashColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  successColor: {r: 0, g: 1, b: 0, a: 1}
+  failColor: {r: 1, g: 0, b: 0, a: 1}
+  hitColor: {r: 0, g: 0, b: 1, a: 1}
+--- !u!114 &1530797258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530797252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad561c7453c9364d923666c3d8f2541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightTrigger
+  puzzleManager: {fileID: 1045687401}
+  puzzleLight: {fileID: 1530797257}
 --- !u!1 &1578577310
 GameObject:
   m_ObjectHideFlags: 0
@@ -6599,33 +6536,15 @@ GameObject:
   - component: {fileID: 1694716929}
   - component: {fileID: 1694716928}
   - component: {fileID: 1694716927}
-  - component: {fileID: 1694716926}
-  m_Layer: 15
+  - component: {fileID: 1694716930}
+  - component: {fileID: 1694716931}
+  m_Layer: 0
   m_Name: Light1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1694716926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694716925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dbdc75c7fdb24577a2445683eb3bf3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PuzzleLight
-  lightIndex: 0
-  spriteRenderer: {fileID: 1694716928}
-  normalColor: {r: 0.63529414, g: 0.19607843, b: 0.28627452, a: 1}
-  flashColor: {r: 0.8666667, g: 0.8601409, b: 0, a: 1}
-  successColor: {r: 0, g: 1, b: 0, a: 1}
-  failColor: {r: 1, g: 0, b: 0, a: 1}
-  hitColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!61 &1694716927
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6717,7 +6636,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1285646975
+  m_SortingLayerID: 441809341
   m_SortingLayer: 8
   m_SortingOrder: 20
   m_MaskInteraction: 0
@@ -6747,6 +6666,39 @@ Transform:
   - {fileID: 1012051435}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1694716930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694716925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95df7405f32818e46a0673ac0398d983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleLight
+  lightIndex: 0
+  spriteRenderer: {fileID: 0}
+  normalColor: {r: 0.7, g: 0.2, b: 0.6, a: 1}
+  flashColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  successColor: {r: 0, g: 1, b: 0, a: 1}
+  failColor: {r: 1, g: 0, b: 0, a: 1}
+  hitColor: {r: 0, g: 0, b: 1, a: 1}
+--- !u!114 &1694716931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694716925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad561c7453c9364d923666c3d8f2541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightTrigger
+  puzzleManager: {fileID: 1045687401}
+  puzzleLight: {fileID: 1694716930}
 --- !u!1 &1815563516
 GameObject:
   m_ObjectHideFlags: 0
@@ -6772,7 +6724,7 @@ Transform:
   m_GameObject: {fileID: 1815563516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.4, y: -27.5, z: 0}
+  m_LocalPosition: {x: 6.8, y: -26.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7154,7 +7106,7 @@ GameObject:
   - component: {fileID: 1929840511}
   - component: {fileID: 1929840513}
   - component: {fileID: 1929840512}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: 6 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7494,37 +7446,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054219242}
   m_CullTransparentMesh: 1
---- !u!1 &2095633595
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2095633596}
-  m_Layer: 0
-  m_Name: GroundCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2095633596
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095633595}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 149.9, y: -30.4, z: -13.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2142881587
 GameObject:
   m_ObjectHideFlags: 0
@@ -7774,13 +7695,22 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 7937288912449535265, guid: 55af4ff6f445845bd92684fc7b3385d1, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 380114011}
+    - target: {fileID: 7937288912449535265, guid: 55af4ff6f445845bd92684fc7b3385d1, type: 3}
+      propertyPath: groundCheckRadius
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937288912449535265, guid: 55af4ff6f445845bd92684fc7b3385d1, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3721423694783163961, guid: 55af4ff6f445845bd92684fc7b3385d1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1467469414}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55af4ff6f445845bd92684fc7b3385d1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -7808,6 +7738,6 @@ SceneRoots:
   - {fileID: 5735822}
   - {fileID: 1372828839}
   - {fileID: 1045687402}
-  - {fileID: 2095633596}
   - {fileID: 338652204}
   - {fileID: 1815563517}
+  - {fileID: 380114011}

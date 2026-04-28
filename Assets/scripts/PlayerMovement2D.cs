@@ -1,16 +1,13 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerMovement2D : MonoBehaviour
 {
     public float speed = 10f;
     public float jumpForce = 12f;
 
-    private float moveInput;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
-
-    private bool isGrounded;
+    private bool isGrounded = false;
 
     void Start()
     {
@@ -20,29 +17,31 @@ public class PlayerMovement2D : MonoBehaviour
 
     void Update()
     {
-        // Movement
-        moveInput = Input.GetAxis("Horizontal");
+        float moveInput = Input.GetAxis("Horizontal");
+
         rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
 
-        // Flip sprite
         if (moveInput > 0)
-        {
             sr.flipX = false;
-        }
         else if (moveInput < 0)
-        {
             sr.flipX = true;
-        }
 
-        // Jump (SPACE BAR)
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
-
-    // Detect ground
+    
     private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+            Debug.Log("GROUNDED");
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
@@ -55,6 +54,7 @@ public class PlayerMovement2D : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
+            Debug.Log("LEFT GROUND");
         }
     }
 }

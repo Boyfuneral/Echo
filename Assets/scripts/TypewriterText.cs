@@ -13,6 +13,13 @@ public class TypewriterText : MonoBehaviour
     void Start()
     {
         textComponent.text = "";
+    }
+
+    public void StartTyping(string newText)
+    {
+        StopAllCoroutines();
+        fullText = newText;
+        textComponent.text = "";
         StartCoroutine(TypeText());
     }
 
@@ -27,10 +34,13 @@ public class TypewriterText : MonoBehaviour
         yield return new WaitForSeconds(displayTime);
 
         // Fade out
-        while (canvasGroup.alpha > 0)
+        if (canvasGroup != null)
         {
-            canvasGroup.alpha -= Time.deltaTime;
-            yield return null;
+            while (canvasGroup.alpha > 0)
+            {
+                canvasGroup.alpha -= Time.deltaTime;
+                yield return null;
+            }
         }
     }
 }
