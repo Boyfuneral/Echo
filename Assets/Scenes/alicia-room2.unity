@@ -2902,8 +2902,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '              "The Lights will guide you.....if you fail, you will not
-    return"'
+  m_text: '"The Lights will guide you.....if you fail, you will not return"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3694,10 +3693,10 @@ RectTransform:
   - {fileID: 1512740965}
   m_Father: {fileID: 1852875079}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.28827962, y: 0.38300002}
-  m_AnchorMax: {x: 0.8101754, y: 0.88100004}
-  m_AnchoredPosition: {x: -52, y: 68}
-  m_SizeDelta: {x: 104, y: 136}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -15.5, y: 160.5}
+  m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &976595238
 MonoBehaviour:
@@ -4129,7 +4128,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogueTrigger
   dialogueBox: {fileID: 1889215002}
   dialogueText: {fileID: 800983330}
-  puzzleManager: {fileID: 1045687401}
 --- !u!1 &1043834234
 GameObject:
   m_ObjectHideFlags: 0
@@ -4309,6 +4307,7 @@ MonoBehaviour:
   barrierToOpen: {fileID: 1578577310}
   playerSpawnPoint: {fileID: 1815563517}
   player: {fileID: 1467469408}
+  lightPuzzleBox: {fileID: 338652203}
   roundTextBox: {fileID: 2054219242}
   roundText: {fileID: 1043834236}
 --- !u!4 &1045687402
@@ -5951,7 +5950,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '            "This forest follows rules. Learn them, and you can move forward."'
+  m_text: '"This forest follows rules. Learn them, and you can move forward."'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5978,8 +5977,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6564,8 +6563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a7a5a24325ae64f848ff3d1a992aff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightPuzzleSensor
-  pressEBox: {fileID: 1871324462}
-  lightPuzzleUI: {fileID: 0}
+  lightPuzzleManager: {fileID: 1045687401}
 --- !u!61 &1556975743
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6600,7 +6598,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.8125472, y: -1.2768612}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6610,7 +6608,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 15.625842, y: 13.304283}
   m_EdgeRadius: 0
 --- !u!4 &1556975744
 Transform:
@@ -6620,13 +6618,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556975741}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.30939, y: -33.16916, z: 0}
+  m_LocalRotation: {x: -0.003275526, y: -0, z: -0, w: 0.99999464}
+  m_LocalPosition: {x: -38, y: -20.6, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.375, y: 0, z: 0}
 --- !u!1 &1578577310
 GameObject:
   m_ObjectHideFlags: 0
@@ -6800,7 +6798,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1581896161
 MonoBehaviour:
@@ -6822,7 +6820,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '       Press E to speak'
+  m_text: Press E to speak
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6856,7 +6854,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -7101,7 +7099,7 @@ Transform:
   m_GameObject: {fileID: 1815563516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.8, y: -26.6, z: 0}
+  m_LocalPosition: {x: -83.7, y: -25.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7247,7 +7245,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 300}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1871324464
 MonoBehaviour:
@@ -7322,10 +7320,10 @@ RectTransform:
   - {fileID: 800983328}
   m_Father: {fileID: 5735822}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.28827962, y: 0.38300002}
-  m_AnchorMax: {x: 0.8101754, y: 0.88100004}
-  m_AnchoredPosition: {x: -52, y: 68}
-  m_SizeDelta: {x: 104, y: 136}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 20.5, y: 161}
+  m_SizeDelta: {x: 600, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1889215004
 CanvasGroup:
