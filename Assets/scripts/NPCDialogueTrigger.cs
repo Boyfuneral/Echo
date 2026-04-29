@@ -6,7 +6,6 @@ public class NPCDialogueTrigger : MonoBehaviour
 {
     public GameObject dialogueBox;
     public TextMeshProUGUI dialogueText;
-    public LightPuzzleManager puzzleManager;
 
     private TypewriterText typewriter;
     private bool playerInRange = false;
@@ -34,17 +33,14 @@ public class NPCDialogueTrigger : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 started = true;
-                StartCoroutine(DialogueThenStartPuzzle());
+                StartCoroutine(ShowDialogue());
             }
         }
     }
 
-    IEnumerator DialogueThenStartPuzzle()
+    IEnumerator ShowDialogue()
     {
-        if (dialogueBox != null)
-            dialogueBox.SetActive(true);
-
-        string message = "The lights will guide you... if you fail, you will not return.";
+        string message = "The lights will guide you...\nFind where they begin.";
 
         if (typewriter != null)
             typewriter.StartTyping(message);
@@ -55,9 +51,6 @@ public class NPCDialogueTrigger : MonoBehaviour
 
         if (dialogueBox != null)
             dialogueBox.SetActive(false);
-
-        if (puzzleManager != null)
-            puzzleManager.StartPuzzle();
     }
 
     private void OnTriggerEnter2D(Collider2D other)

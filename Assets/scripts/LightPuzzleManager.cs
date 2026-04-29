@@ -21,6 +21,7 @@ public class LightPuzzleManager : MonoBehaviour
     public Transform playerSpawnPoint;
     public GameObject player;
 
+    public GameObject lightPuzzleBox;
     public GameObject roundTextBox;
     public TextMeshProUGUI roundText;
 
@@ -32,9 +33,18 @@ public class LightPuzzleManager : MonoBehaviour
             roundTextBox.SetActive(false);
     }
 
+    public void OpenPuzzle()
+    {
+        if (lightPuzzleBox != null)
+            lightPuzzleBox.SetActive(true);
+
+        StartPuzzle();
+    }
+
     public void StartPuzzle()
     {
         currentRound = 1;
+        puzzleSolved = false;
         StartCoroutine(StartRound());
     }
 
@@ -173,6 +183,9 @@ public class LightPuzzleManager : MonoBehaviour
 
     IEnumerator ShowRoundMessage(string message)
     {
+        if (lightPuzzleBox != null)
+            lightPuzzleBox.SetActive(true);
+
         if (roundTextBox != null)
             roundTextBox.SetActive(true);
 

@@ -3,13 +3,14 @@ using TMPro;
 
 public class NPCDialogue : MonoBehaviour
 {
+    public ScaryDialogueEffects scaryEffects;
     public GameObject pressEText;
     public GameObject dialogueBox;
     public TextMeshProUGUI dialogueText;
     public PuzzleUI puzzleUI;
 
     [TextArea(3, 6)]
-    public string message = "This forest follows rules.\nNow solve the puzzle.";
+    public string message = "This forest follows rules...\nDisobey them, and it will remember you.";
 
     private bool playerNearby = false;
     private bool dialogueOpen = false;
@@ -42,6 +43,9 @@ public class NPCDialogue : MonoBehaviour
 
                 if (dialogueBox != null)
                     dialogueBox.SetActive(true);
+
+                if (scaryEffects != null)
+                    scaryEffects.PlayScaryEffect();
 
                 if (dialogueText != null)
                 {

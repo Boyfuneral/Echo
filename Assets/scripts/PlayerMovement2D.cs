@@ -14,10 +14,9 @@ public class PlayerMovement2D : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
     }
-
     void Update()
     {
-        float moveInput = Input.GetAxis("Horizontal");
+        float moveInput = -Input.GetAxisRaw("Horizontal"); 
 
         rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
 
@@ -31,7 +30,8 @@ public class PlayerMovement2D : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
-    
+
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))

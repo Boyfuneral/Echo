@@ -67,13 +67,15 @@
     <Compile Include="Assets\scripts\Introtext.cs" />
     <Compile Include="Assets\scripts\PuzzleLight.cs" />
     <Compile Include="Assets\GameLogic\Interactables\StrapPuzzleUI.cs" />
-    <Compile Include="Assets\scripts\LightTrigger.cs" />
+    <Compile Include="Assets\scripts\LIghtTrigger.cs" />
+    <Compile Include="Assets\scripts\ScaryDialogueEffect.cs" />
     <Compile Include="Assets\scripts\Backgroundcontrol.cs" />
     <Compile Include="Assets\Dialogue\RoomDialogue.cs" />
     <Compile Include="Assets\GameLogic\Interactables\ChestPuzzleUI.cs" />
     <Compile Include="Assets\Dialogue\DialogueManager.cs" />
     <Compile Include="Assets\GameLogic\InteractableHighlight.cs" />
     <Compile Include="Assets\scripts\LightPuzzleManager.cs" />
+    <Compile Include="Assets\scripts\LightPuzzleSensor.cs" />
     <Compile Include="Assets\Menu\MainMenu.cs" />
     <Compile Include="Assets\GameLogic\MouseInteractManager.cs" />
     <Compile Include="Assets\scripts\NPCDialogue.cs" />
