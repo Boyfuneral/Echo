@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/InfinityPBR.meta
+guid: f6811c0fc877647e58d8f059f5b7f917
+========
 guid: c9b20465068a47b45a9ae834a959ed15
+>>>>>>>> origin/Andrew-Room1:Assets/Dialogue.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

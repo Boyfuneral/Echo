@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Morgue Room PBR.meta
+guid: 14449c975601549788ec19b7fa729d91
+========
 guid: ab48cb539be31964fb16f0c3370d27d2
+>>>>>>>> origin/Andrew-Room1:Assets/GameLogic.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

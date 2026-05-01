@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Player_Tag
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -11,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - interact
   - 
   - 
+  - Ground
   - 
   - 
   - 
@@ -40,6 +42,30 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: color
+    uniqueID: 819152261
+    locked: 0
+  - name: 2
+    uniqueID: 2508557055
+    locked: 0
+  - name: 3
+    uniqueID: 4233354165
+    locked: 0
+  - name: spider
+    uniqueID: 2772615269
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 328363133
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 194237049
+    locked: 0
+  - name: player
+    uniqueID: 628622501
+    locked: 0
+  - name: lights
+    uniqueID: 441809341
     locked: 0
   m_RenderingLayers:
   - Default

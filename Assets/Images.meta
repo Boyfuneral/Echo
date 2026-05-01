@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/PNG.meta
+guid: 2d73fbe2eeb84499e88f37aeea68a5f8
+========
 guid: 01c30104bc317534f9502c9a59f93869
+>>>>>>>> origin/Andrew-Room1:Assets/Images.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
