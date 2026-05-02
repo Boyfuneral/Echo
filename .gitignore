@@ -8,5 +8,22 @@
 [Ll]ogs/
 UserSettings/
 
+# Visual Studio / IDE junk
+.vs/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity build folders
+[Bb]uild/
+[Bb]uilds/
+
 # Crash logs
 mono_crash*.json
