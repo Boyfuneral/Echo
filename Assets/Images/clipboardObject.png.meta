@@ -1,0 +1,2847 @@
+fileFormatVersion: 2
+guid: a45636f3b21e8b841883e9b11c90fd26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -272672817962405895
+    second: clipboardObject_0
+  - first:
+      213: -2125330090036522266
+    second: clipboardObject_1
+  - first:
+      213: 2529688018663506919
+    second: clipboardObject_2
+  - first:
+      213: 929540196966786811
+    second: clipboardObject_3
+  - first:
+      213: 5272533985816374811
+    second: clipboardObject_4
+  - first:
+      213: 6004275916882637687
+    second: clipboardObject_5
+  - first:
+      213: -7343577257172745858
+    second: clipboardObject_6
+  - first:
+      213: -4082159512431821548
+    second: clipboardObject_7
+  - first:
+      213: 8799769982311442510
+    second: clipboardObject_8
+  - first:
+      213: -4509456162212427699
+    second: clipboardObject_9
+  - first:
+      213: 6930121755614392098
+    second: clipboardObject_10
+  - first:
+      213: 5437020322963236548
+    second: clipboardObject_11
+  - first:
+      213: 7933109884931296873
+    second: clipboardObject_12
+  - first:
+      213: -2052360425546383059
+    second: clipboardObject_13
+  - first:
+      213: 8553093875750072295
+    second: clipboardObject_14
+  - first:
+      213: -169847898515239057
+    second: clipboardObject_15
+  - first:
+      213: 9078550822301992338
+    second: clipboardObject_16
+  - first:
+      213: -6024489869605238121
+    second: clipboardObject_17
+  - first:
+      213: -3873647306829007874
+    second: clipboardObject_18
+  - first:
+      213: 371406074567677811
+    second: clipboardObject_19
+  - first:
+      213: 8311813204685209166
+    second: clipboardObject_20
+  - first:
+      213: -4395944498232343792
+    second: clipboardObject_21
+  - first:
+      213: -7103460966055171314
+    second: clipboardObject_22
+  - first:
+      213: -535502420754432671
+    second: clipboardObject_23
+  - first:
+      213: -2104331952430331013
+    second: clipboardObject_24
+  - first:
+      213: -3387934597071819736
+    second: clipboardObject_25
+  - first:
+      213: 3322172163816093139
+    second: clipboardObject_26
+  - first:
+      213: 6429948502239664959
+    second: clipboardObject_27
+  - first:
+      213: 4250467721424904187
+    second: clipboardObject_28
+  - first:
+      213: 5504935157682152638
+    second: clipboardObject_29
+  - first:
+      213: 7890720246707045305
+    second: clipboardObject_30
+  - first:
+      213: 5628253232869505087
+    second: clipboardObject_31
+  - first:
+      213: -469372623358887419
+    second: clipboardObject_32
+  - first:
+      213: -3909618646357364580
+    second: clipboardObject_33
+  - first:
+      213: 8878203613381550373
+    second: clipboardObject_34
+  - first:
+      213: 6043532373330803210
+    second: clipboardObject_35
+  - first:
+      213: 4095594091725969797
+    second: clipboardObject_36
+  - first:
+      213: -8103812280238644230
+    second: clipboardObject_37
+  - first:
+      213: -6432055147973666550
+    second: clipboardObject_38
+  - first:
+      213: -8310435085358349551
+    second: clipboardObject_39
+  - first:
+      213: 1834984811326052829
+    second: clipboardObject_40
+  - first:
+      213: -984180488437922978
+    second: clipboardObject_41
+  - first:
+      213: -3834854845940250153
+    second: clipboardObject_42
+  - first:
+      213: -6709524435185704737
+    second: clipboardObject_43
+  - first:
+      213: 3876075499529831102
+    second: clipboardObject_44
+  - first:
+      213: 5749211755053673050
+    second: clipboardObject_45
+  - first:
+      213: -5045032218070018890
+    second: clipboardObject_46
+  - first:
+      213: 2348525405657120618
+    second: clipboardObject_47
+  - first:
+      213: 2382702919700391502
+    second: clipboardObject_48
+  - first:
+      213: -6251838517062626155
+    second: clipboardObject_49
+  - first:
+      213: 8706670892212754922
+    second: clipboardObject_50
+  - first:
+      213: 5034997222761831176
+    second: clipboardObject_51
+  - first:
+      213: -3481315873041959843
+    second: clipboardObject_52
+  - first:
+      213: -7884230924255296026
+    second: clipboardObject_53
+  - first:
+      213: 5295201000378458294
+    second: clipboardObject_54
+  - first:
+      213: -3505112823464367221
+    second: clipboardObject_55
+  - first:
+      213: 2353793209317339841
+    second: clipboardObject_56
+  - first:
+      213: -4159703813965069832
+    second: clipboardObject_57
+  - first:
+      213: 8411470625268969800
+    second: clipboardObject_58
+  - first:
+      213: -7222972070258369034
+    second: clipboardObject_59
+  - first:
+      213: -180353961358374360
+    second: clipboardObject_60
+  - first:
+      213: 2457441267081697118
+    second: clipboardObject_61
+  - first:
+      213: -3892743076564971184
+    second: clipboardObject_62
+  - first:
+      213: 5968914247506466073
+    second: clipboardObject_63
+  - first:
+      213: 3712788200318649585
+    second: clipboardObject_64
+  - first:
+      213: 1339482155115429640
+    second: clipboardObject_65
+  - first:
+      213: 2918827307843766903
+    second: clipboardObject_66
+  - first:
+      213: -8856868552652177591
+    second: clipboardObject_67
+  - first:
+      213: -733975408797704275
+    second: clipboardObject_68
+  - first:
+      213: -2623119434237862877
+    second: clipboardObject_69
+  - first:
+      213: 5798376655580935239
+    second: clipboardObject_70
+  - first:
+      213: 6776828562335356850
+    second: clipboardObject_71
+  - first:
+      213: 7619363855000443833
+    second: clipboardObject_72
+  - first:
+      213: -7141509168456595098
+    second: clipboardObject_73
+  - first:
+      213: 3494941153522967168
+    second: clipboardObject_74
+  - first:
+      213: 4529601501228963208
+    second: clipboardObject_75
+  - first:
+      213: -3481101592243674056
+    second: clipboardObject_76
+  - first:
+      213: 6823461502985460744
+    second: clipboardObject_77
+  - first:
+      213: 5593672726653057151
+    second: clipboardObject_78
+  - first:
+      213: -3270346665626249812
+    second: clipboardObject_79
+  - first:
+      213: -8258750426919912536
+    second: clipboardObject_80
+  - first:
+      213: -3552939584322821472
+    second: clipboardObject_81
+  - first:
+      213: 5257213385118301609
+    second: clipboardObject_82
+  - first:
+      213: 589580652698817205
+    second: clipboardObject_83
+  - first:
+      213: -6204082451252728639
+    second: clipboardObject_84
+  - first:
+      213: -3756827082845567525
+    second: clipboardObject_85
+  - first:
+      213: -700690878025790252
+    second: clipboardObject_86
+  - first:
+      213: -3969695200823061250
+    second: clipboardObject_87
+  - first:
+      213: 6803829551115080804
+    second: clipboardObject_88
+  - first:
+      213: -194518461982278322
+    second: clipboardObject_89
+  - first:
+      213: 8601632678633967431
+    second: clipboardObject_90
+  - first:
+      213: 3482680072489536915
+    second: clipboardObject_91
+  - first:
+      213: -8426639952665631137
+    second: clipboardObject_92
+  - first:
+      213: -6706206899162983980
+    second: clipboardObject_93
+  - first:
+      213: 5952737951986364559
+    second: clipboardObject_94
+  - first:
+      213: -566873015706126315
+    second: clipboardObject_95
+  - first:
+      213: -5895688083927104976
+    second: clipboardObject_96
+  - first:
+      213: -393156357899703035
+    second: clipboardObject_97
+  - first:
+      213: 5417428599961395399
+    second: clipboardObject_98
+  - first:
+      213: -7800285303529351751
+    second: clipboardObject_99
+  - first:
+      213: 5449849481737237644
+    second: clipboardObject_100
+  - first:
+      213: 471740165743497589
+    second: clipboardObject_101
+  - first:
+      213: -7948386634786351858
+    second: clipboardObject_102
+  - first:
+      213: -6891447670209331138
+    second: clipboardObject_103
+  - first:
+      213: -8055807183737038930
+    second: clipboardObject_104
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 7
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clipboardObject_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 238
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff22794485473cf0800000000000000
+      internalID: -272672817962405895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 67
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e29ce82b8f4182e0800000000000000
+      internalID: -2125330090036522266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 998
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e30001a9d14b1320800000000000000
+      internalID: 2529688018663506919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 934
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6e6ac52e366ec00800000000000000
+      internalID: 929540196966786811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 902
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e62ca99bdcb2940800000000000000
+      internalID: 5272533985816374811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 814
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773f8376229735350800000000000000
+      internalID: 6004275916882637687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 797
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71c49d746f561a90800000000000000
+      internalID: -7343577257172745858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 710
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41df4093d814957c0800000000000000
+      internalID: -4082159512431821548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 675
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48a1dcfc201f1a70800000000000000
+      internalID: 8799769982311442510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 630
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48c12933813b61c0800000000000000
+      internalID: -4509456162212427699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 326
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f2a95f40dbc2060800000000000000
+      internalID: 6930121755614392098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 278
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6adca5d2d247b40800000000000000
+      internalID: 5437020322963236548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 222
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e487fa861181e60800000000000000
+      internalID: 7933109884931296873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 198
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d210d3c111d8483e0800000000000000
+      internalID: -2052360425546383059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 158
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efe6a25091b2b670800000000000000
+      internalID: 8553093875750072295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 142
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f07277c3494adf0800000000000000
+      internalID: -169847898515239057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 126
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29504a66fdd7dfd70800000000000000
+      internalID: 9078550822301992338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 86
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a8d39f166b46ca0800000000000000
+      internalID: -6024489869605238121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 22
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3fe434c4a0e3ac0800000000000000
+      internalID: -3873647306829007874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 782
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37757066bdf772500800000000000000
+      internalID: 371406074567677811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 990
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4eb9a0621e795370800000000000000
+      internalID: 8311813204685209166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 982
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013478205c77ef2c0800000000000000
+      internalID: -4395944498232343792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 974
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bad6a13ef6b6d90800000000000000
+      internalID: -7103460966055171314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 966
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16df192b2638198f0800000000000000
+      internalID: -535502420754432671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 950
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bc2ed0d39ebc2e0800000000000000
+      internalID: -2104331952430331013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 942
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c274b1f63abf0d0800000000000000
+      internalID: -3387934597071819736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 926
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5f2fa3bf9ba1e20800000000000000
+      internalID: 3322172163816093139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 894
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bdc007814cb3950800000000000000
+      internalID: 6429948502239664959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 886
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff9bc86fd1bcfa30800000000000000
+      internalID: 4250467721424904187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 870
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb424390c55756c40800000000000000
+      internalID: 5504935157682152638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 862
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3c4fee148718d60800000000000000
+      internalID: 7890720246707045305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 854
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38712bde729b1e40800000000000000
+      internalID: 5628253232869505087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 846
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a766df5147c79f0800000000000000
+      internalID: -469372623358887419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 838
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9030a02e8e3eb9c0800000000000000
+      internalID: -3909618646357364580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 830
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521623bc527b53b70800000000000000
+      internalID: 8878203613381550373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 819
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ab4fc6ca0fed350800000000000000
+      internalID: 6043532373330803210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_36
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 790
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589d385802976d830800000000000000
+      internalID: 4095594091725969797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 774
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af36dedbaa9798f80800000000000000
+      internalID: -8103812280238644230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 766
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a099e41ebefbcb6a0800000000000000
+      internalID: -6432055147973666550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 757
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113c54802576bac80800000000000000
+      internalID: -8310435085358349551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_40
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 750
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd99357b6fc277910800000000000000
+      internalID: 1834984811326052829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 734
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5389c76f0d7752f0800000000000000
+      internalID: -984180488437922978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 718
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9cb86e5dbd7cac0800000000000000
+      internalID: -3834854845940250153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 702
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0e3f4231bf2e2a0800000000000000
+      internalID: -6709524435185704737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 694
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2021861269ac530800000000000000
+      internalID: 3876075499529831102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 686
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a697e61ad49cf40800000000000000
+      internalID: 5749211755053673050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 671
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b419896de17cf9b0800000000000000
+      internalID: -5045032218070018890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 653
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f3c26d963a79020800000000000000
+      internalID: 2348525405657120618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 646
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46270e6eaf011120800000000000000
+      internalID: 2382702919700391502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 638
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594906d0ef10d39a0800000000000000
+      internalID: -6251838517062626155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_50
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 622
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9139aeb0f44d870800000000000000
+      internalID: 8706670892212754922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_51
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 614
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b1ccb2c47efd540800000000000000
+      internalID: 5034997222761831176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_52
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 582
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54b76488a1efafc0800000000000000
+      internalID: -3481315873041959843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 550
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e50d903fb5959290800000000000000
+      internalID: -7884230924255296026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 526
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0e9d131455c7940800000000000000
+      internalID: 5295201000378458294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 518
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b6dbb35765b5fc0800000000000000
+      internalID: -3505112823464367221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 453
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c23614f37a5aa020800000000000000
+      internalID: 2353793209317339841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 430
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f146c59b63c546c0800000000000000
+      internalID: -4159703813965069832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 398
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8413ac1c7fb8bb470800000000000000
+      internalID: 8411470625268969800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_59
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 390
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd9ea9cb29d2cb90800000000000000
+      internalID: -7222972070258369034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_60
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 368
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a466717014f7df0800000000000000
+      internalID: -180353961358374360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 360
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e575ac4ffc59a1220800000000000000
+      internalID: 2457441267081697118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_62
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 350
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051db77ebc23af9c0800000000000000
+      internalID: -3892743076564971184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915146922e7d5d250800000000000000
+      internalID: 5968914247506466073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_64
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 295
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4414e6239768330800000000000000
+      internalID: 3712788200318649585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_65
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 286
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f31a65cebc69210800000000000000
+      internalID: 1339482155115429640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_66
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 271
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77accbcc8f1c18820800000000000000
+      internalID: 2918827307843766903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_67
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 246
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fb6d02af4161580800000000000000
+      internalID: -8856868552652177591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_68
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 230
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf9db4214560d5f0800000000000000
+      internalID: -733975408797704275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 206
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c14deb5cec89bd0800000000000000
+      internalID: -2623119434237862877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 190
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744b1ddd8d8f77050800000000000000
+      internalID: 5798376655580935239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_71
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 174
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b758b91ca12c0e50800000000000000
+      internalID: 6776828562335356850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_72
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 166
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb90c79e0b6db960800000000000000
+      internalID: 7619363855000443833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_73
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 150
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66903f5af3344ec90800000000000000
+      internalID: -7141509168456595098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_74
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 110
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08261ae4676808030800000000000000
+      internalID: 3494941153522967168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_75
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 75
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88514d601906cde30800000000000000
+      internalID: 4529601501228963208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_76
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 6
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834e447ab84a0bfc0800000000000000
+      internalID: -3481101592243674056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_77
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c5000b51ec1be50800000000000000
+      internalID: 6823461502985460744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_78
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 910
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7832f555b7b0ad40800000000000000
+      internalID: 5593672726653057151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_79
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 534
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5d6fed8056d92d0800000000000000
+      internalID: -3270346665626249812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_80
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 470
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab35d25e36036d80800000000000000
+      internalID: -8258750426919912536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_81
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 422
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2a308b54c61bec0800000000000000
+      internalID: -3552939584322821472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_82
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 374
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adb76848bf55f840800000000000000
+      internalID: 5257213385118301609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_83
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 310
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b25e8ada7c9e2800800000000000000
+      internalID: 589580652698817205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_84
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cca8d791eba6e9a0800000000000000
+      internalID: -6204082451252728639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_85
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 919
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd54c643ca11ddbc0800000000000000
+      internalID: -3756827082845567525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_86
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 606
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc8aeddb55a646f0800000000000000
+      internalID: -700690878025790252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_87
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 542
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef45e584f3fc8e8c0800000000000000
+      internalID: -3969695200823061250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 486
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4641582bdee0c6e50800000000000000
+      internalID: 6803829551115080804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_89
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 479
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d7a4b4d7eec4df0800000000000000
+      internalID: -194518461982278322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_90
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 462
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f8e5a09532f5770800000000000000
+      internalID: 8601632678633967431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_91
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 446
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d021be217f45030800000000000000
+      internalID: 3482680072489536915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_92
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 438
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56204bfb9f8e0b80800000000000000
+      internalID: -8426639952665631137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_93
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 406
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1dd113b54cee2a0800000000000000
+      internalID: -6706206899162983980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_94
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 95
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80322dd0af5c9250800000000000000
+      internalID: 5952737951986364559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_95
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 1293
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518f412eeff0228f0800000000000000
+      internalID: -566873015706126315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_96
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 32
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0328503acee4e2ea0800000000000000
+      internalID: -5895688083927104976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_97
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 32
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50da332206a3b8af0800000000000000
+      internalID: -393156357899703035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_98
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 23
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0adb0eb929e2b40800000000000000
+      internalID: 5417428599961395399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_99
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 5
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5de6818d1dfb390800000000000000
+      internalID: -7800285303529351751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_100
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c847b46aa31c1ab40800000000000000
+      internalID: 5449849481737237644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_101
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571dc6d6e25fb8600800000000000000
+      internalID: 471740165743497589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_102
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05d810d778a1b190800000000000000
+      internalID: -7948386634786351858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_103
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 119
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30cafc3bd8ac50a0800000000000000
+      internalID: -6891447670209331138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboardObject_104
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 127
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea750524c06043090800000000000000
+      internalID: -8055807183737038930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clipboardObject_0: -272672817962405895
+      clipboardObject_1: -2125330090036522266
+      clipboardObject_10: 6930121755614392098
+      clipboardObject_100: 5449849481737237644
+      clipboardObject_101: 471740165743497589
+      clipboardObject_102: -7948386634786351858
+      clipboardObject_103: -6891447670209331138
+      clipboardObject_104: -8055807183737038930
+      clipboardObject_11: 5437020322963236548
+      clipboardObject_12: 7933109884931296873
+      clipboardObject_13: -2052360425546383059
+      clipboardObject_14: 8553093875750072295
+      clipboardObject_15: -169847898515239057
+      clipboardObject_16: 9078550822301992338
+      clipboardObject_17: -6024489869605238121
+      clipboardObject_18: -3873647306829007874
+      clipboardObject_19: 371406074567677811
+      clipboardObject_2: 2529688018663506919
+      clipboardObject_20: 8311813204685209166
+      clipboardObject_21: -4395944498232343792
+      clipboardObject_22: -7103460966055171314
+      clipboardObject_23: -535502420754432671
+      clipboardObject_24: -2104331952430331013
+      clipboardObject_25: -3387934597071819736
+      clipboardObject_26: 3322172163816093139
+      clipboardObject_27: 6429948502239664959
+      clipboardObject_28: 4250467721424904187
+      clipboardObject_29: 5504935157682152638
+      clipboardObject_3: 929540196966786811
+      clipboardObject_30: 7890720246707045305
+      clipboardObject_31: 5628253232869505087
+      clipboardObject_32: -469372623358887419
+      clipboardObject_33: -3909618646357364580
+      clipboardObject_34: 8878203613381550373
+      clipboardObject_35: 6043532373330803210
+      clipboardObject_36: 4095594091725969797
+      clipboardObject_37: -8103812280238644230
+      clipboardObject_38: -6432055147973666550
+      clipboardObject_39: -8310435085358349551
+      clipboardObject_4: 5272533985816374811
+      clipboardObject_40: 1834984811326052829
+      clipboardObject_41: -984180488437922978
+      clipboardObject_42: -3834854845940250153
+      clipboardObject_43: -6709524435185704737
+      clipboardObject_44: 3876075499529831102
+      clipboardObject_45: 5749211755053673050
+      clipboardObject_46: -5045032218070018890
+      clipboardObject_47: 2348525405657120618
+      clipboardObject_48: 2382702919700391502
+      clipboardObject_49: -6251838517062626155
+      clipboardObject_5: 6004275916882637687
+      clipboardObject_50: 8706670892212754922
+      clipboardObject_51: 5034997222761831176
+      clipboardObject_52: -3481315873041959843
+      clipboardObject_53: -7884230924255296026
+      clipboardObject_54: 5295201000378458294
+      clipboardObject_55: -3505112823464367221
+      clipboardObject_56: 2353793209317339841
+      clipboardObject_57: -4159703813965069832
+      clipboardObject_58: 8411470625268969800
+      clipboardObject_59: -7222972070258369034
+      clipboardObject_6: -7343577257172745858
+      clipboardObject_60: -180353961358374360
+      clipboardObject_61: 2457441267081697118
+      clipboardObject_62: -3892743076564971184
+      clipboardObject_63: 5968914247506466073
+      clipboardObject_64: 3712788200318649585
+      clipboardObject_65: 1339482155115429640
+      clipboardObject_66: 2918827307843766903
+      clipboardObject_67: -8856868552652177591
+      clipboardObject_68: -733975408797704275
+      clipboardObject_69: -2623119434237862877
+      clipboardObject_7: -4082159512431821548
+      clipboardObject_70: 5798376655580935239
+      clipboardObject_71: 6776828562335356850
+      clipboardObject_72: 7619363855000443833
+      clipboardObject_73: -7141509168456595098
+      clipboardObject_74: 3494941153522967168
+      clipboardObject_75: 4529601501228963208
+      clipboardObject_76: -3481101592243674056
+      clipboardObject_77: 6823461502985460744
+      clipboardObject_78: 5593672726653057151
+      clipboardObject_79: -3270346665626249812
+      clipboardObject_8: 8799769982311442510
+      clipboardObject_80: -8258750426919912536
+      clipboardObject_81: -3552939584322821472
+      clipboardObject_82: 5257213385118301609
+      clipboardObject_83: 589580652698817205
+      clipboardObject_84: -6204082451252728639
+      clipboardObject_85: -3756827082845567525
+      clipboardObject_86: -700690878025790252
+      clipboardObject_87: -3969695200823061250
+      clipboardObject_88: 6803829551115080804
+      clipboardObject_89: -194518461982278322
+      clipboardObject_9: -4509456162212427699
+      clipboardObject_90: 8601632678633967431
+      clipboardObject_91: 3482680072489536915
+      clipboardObject_92: -8426639952665631137
+      clipboardObject_93: -6706206899162983980
+      clipboardObject_94: 5952737951986364559
+      clipboardObject_95: -566873015706126315
+      clipboardObject_96: -5895688083927104976
+      clipboardObject_97: -393156357899703035
+      clipboardObject_98: 5417428599961395399
+      clipboardObject_99: -7800285303529351751
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
