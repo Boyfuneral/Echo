@@ -26,7 +26,7 @@ public class ChestPuzzleUI : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            PuzzleManager.Instance.EndPuzzle(gameObject);
+            PuzzleManager.Instance.EndPuzzle();
         }
     }
 
