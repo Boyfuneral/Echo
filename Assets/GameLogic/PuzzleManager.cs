@@ -7,6 +7,7 @@ public class PuzzleManager : MonoBehaviour
     public GameObject puzzleOverlay;
     public MoveScript player;
     public bool isPuzzleActive = false;
+    public GameObject currentPuzzleUI;
 
     void Awake()
     {
@@ -17,21 +18,27 @@ public class PuzzleManager : MonoBehaviour
     public void StartPuzzle(GameObject puzzleUI)
     {
         isPuzzleActive = true;
+
+        currentPuzzleUI = puzzleUI;
+
         puzzleOverlay.SetActive(true);
         puzzleUI.SetActive(true);
 
         player.canMove = false;
-        //Cursor.visible = true;
     }
 
-    public void EndPuzzle(GameObject puzzleUI)
+    public void EndPuzzle()
     {
+        if (currentPuzzleUI != null)
+        {
+            currentPuzzleUI.SetActive(false);
+        }
+    
         isPuzzleActive = false;
-        puzzleUI.SetActive(false);
         puzzleOverlay.SetActive(false);
-
+    
         player.canMove = true;
-        //Cursor.visible = false;
-        
+    
+        currentPuzzleUI = null;
     }
 }

@@ -16,7 +16,7 @@ public class StrapPuzzleUI : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            PuzzleManager.Instance.EndPuzzle(gameObject);
+            PuzzleManager.Instance.EndPuzzle();
         }
     }
     public void RegisterInput(int id)
@@ -42,7 +42,7 @@ public class StrapPuzzleUI : MonoBehaviour
         playerMovement.isTrapped = false;
         playerMovement.rb.gravityScale = 1;
         gameObject.SetActive(false);
-        PuzzleManager.Instance.EndPuzzle(gameObject);
+        PuzzleManager.Instance.EndPuzzle();
         roomController.CompleteRoom();
         interactableObject.GetComponent<Collider2D>().enabled = false;
         mirrorInteract.GetComponent<Collider2D>().enabled = false;
@@ -62,6 +62,6 @@ public class StrapPuzzleUI : MonoBehaviour
         currentIndex = 0;
         Debug.Log("Wrong puzzle reset");
         gameObject.SetActive(false);
-        PuzzleManager.Instance.EndPuzzle(gameObject);
+        PuzzleManager.Instance.EndPuzzle();
     }
 }
