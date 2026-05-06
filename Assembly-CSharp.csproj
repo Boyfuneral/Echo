@@ -100,6 +100,7 @@
     <Compile Include="Assets\scripts\TypewriterText.cs" />
     <Compile Include="Assets\GameLogic\Interactables\ChestInteract.cs" />
     <Compile Include="Assets\scripts\PuzzleUI.cs" />
+    <Compile Include="Assets\scripts\roomTransition.cs" />
     <Compile Include="Assets\scripts\SimpleNPCDialogue.cs" />
   </ItemGroup>
   <ItemGroup>
