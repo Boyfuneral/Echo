@@ -43,6 +43,8 @@ public class MoveScript : MonoBehaviour
         rb.linearVelocity = new Vector2(horizontalInput * speed, rb.linearVelocity.y);
 
         UpdateSpriteDirection(horizontalInput);
+        
+        
     }
 
     void UpdateSpriteDirection(float moveInput)
