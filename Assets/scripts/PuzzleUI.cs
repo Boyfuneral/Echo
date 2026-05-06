@@ -35,7 +35,7 @@ public class PuzzleUI : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
         {
-            if (puzzleBox != null && puzzleBox.activeSelf)
+            if (puzzleBox != null && puzzleBox.activeSelf && wordPuzzleGroup != null && wordPuzzleGroup.activeSelf)
             {
                 CheckWordAnswer();
             }
@@ -57,13 +57,10 @@ public class PuzzleUI : MonoBehaviour
             wordPuzzleGroup.SetActive(false);
     }
 
+    // Make your correct button call this
     public void ChooseCorrect()
     {
-        if (resultText != null)
-            resultText.text = "Correct. The path opens.";
-
-        if (barrierToUnlock != null)
-            barrierToUnlock.SetActive(false);
+        OpenClockWordPuzzle();
     }
 
     public void ChooseWrong()
@@ -84,10 +81,10 @@ public class PuzzleUI : MonoBehaviour
             wordPuzzleGroup.SetActive(true);
 
         if (puzzleQuestionText != null)
-            puzzleQuestionText.text = "Something about time is reversed.";
+            puzzleQuestionText.text = "I have a face but no eyes. I have hands but no skin. I count what you cannot hold.";
 
         if (puzzleWordText != null)
-            puzzleWordText.text = "EMIT";
+            puzzleWordText.text = "What am I?";
 
         if (answerInput != null)
         {
@@ -99,65 +96,85 @@ public class PuzzleUI : MonoBehaviour
     }
 
     public void CheckWordAnswer()
-{
-    if (answerInput == null) return;
-
-    string playerAnswer = answerInput.text.Trim().ToUpper();
-
-    // Stage 0: EMIT -> TIME
-    if (puzzleStage == 0 && playerAnswer == "TIME")
     {
-        puzzleStage = 1;
+        if (answerInput == null) return;
 
-        if (puzzleQuestionText != null)
-            puzzleQuestionText.text = "Time moves in cycles...";
+        string playerAnswer = answerInput.text.Trim().ToUpper();
 
-        if (puzzleWordText != null)
-            puzzleWordText.text = "3 → 6 → 9 → ?";
+        // Answer: CLOCK
+        if (puzzleStage == 0 && playerAnswer == "CLOCK")
+        {
+            puzzleStage = 1;
+
+            if (puzzleQuestionText != null)
+                puzzleQuestionText.text = "I always return to where I started. I repeat without ending.";
+
+            if (puzzleWordText != null)
+                puzzleWordText.text = "What am I?";
+
+            if (resultText != null)
+                resultText.text = "The barrier hums softly...";
+
+            answerInput.text = "";
+            answerInput.ActivateInputField();
+            return;
+        }
+
+        // Answer: CYCLE
+        if (puzzleStage == 1 && playerAnswer == "CYCLE")
+        {
+            puzzleStage = 2;
+
+            if (puzzleQuestionText != null)
+                puzzleQuestionText.text = "On a clock, the cycle completes after 3, 6, and 9. What number closes the loop?";
+
+            if (puzzleWordText != null)
+                puzzleWordText.text = "3 → 6 → 9 → ?";
+
+            if (resultText != null)
+                resultText.text = "The room grows still...";
+
+            answerInput.text = "";
+            answerInput.ActivateInputField();
+            return;
+        }
+
+        // Answer: 12
+        if (puzzleStage == 2 && playerAnswer == "12")
+        {
+            puzzleStage = 3;
+
+            if (puzzleQuestionText != null)
+                puzzleQuestionText.text = "I move forward, yet I cannot be seen. I control clocks, cycles, and the locked path.";
+
+            if (puzzleWordText != null)
+                puzzleWordText.text = "What am I?";
+
+            if (resultText != null)
+                resultText.text = "The barrier weakens...";
+
+            answerInput.text = "";
+            answerInput.ActivateInputField();
+            return;
+        }
+
+        // Answer: TIME
+        if (puzzleStage == 3 && playerAnswer == "TIME")
+        {
+            if (resultText != null)
+                resultText.text = "Correct. The barrier opens.";
+
+            if (barrierToUnlock != null)
+                barrierToUnlock.SetActive(false);
+
+            Invoke(nameof(ClosePuzzle), 1.5f);
+            return;
+        }
 
         if (resultText != null)
-            resultText.text = "";
-
-        answerInput.text = "";
-        answerInput.ActivateInputField();
-        return;
+            resultText.text = "Wrong... the barrier tightens.";
     }
 
-    // Stage 1: cycle answer
-    if (puzzleStage == 1 && playerAnswer == "12")
-    {
-        puzzleStage = 2;
-
-        if (puzzleQuestionText != null)
-            puzzleQuestionText.text = "Where does the cycle begin?";
-
-        if (puzzleWordText != null)
-            puzzleWordText.text = "Enter the frozen hour.";
-
-        if (resultText != null)
-            resultText.text = "";
-
-        answerInput.text = "";
-        answerInput.ActivateInputField();
-        return;
-    }
-
-   
-    if (puzzleStage == 2 && playerAnswer == "3")
-    {
-        if (resultText != null)
-            resultText.text = "The barrier yields.";
-
-        if (barrierToUnlock != null)
-            barrierToUnlock.SetActive(false);
-
-        Invoke(nameof(ClosePuzzle), 1.5f);
-        return;
-    }
-
-    if (resultText != null)
-        resultText.text = "That is not correct.";
-}
     public void ClosePuzzle()
     {
         if (puzzleBox != null)

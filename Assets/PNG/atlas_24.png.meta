@@ -1,7 +1,22 @@
 fileFormatVersion: 2
-guid: 8c58b54db8fa44ce885bd9326bf2e05b
+guid: fceb02377c4bd224fb122ebaef0089f7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3001174643168861804
+    second: atlas_24_0
+  - first:
+      213: -7205028485390534802
+    second: atlas_24_1
+  - first:
+      213: 5929812203884838185
+    second: atlas_24_2
+  - first:
+      213: -9159930665365510157
+    second: atlas_24_3
+  - first:
+      213: 7974152347035768561
+    second: atlas_24_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +54,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,23 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2_game_background_0
+      name: atlas_24_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        y: 1742
+        width: 1013
+        height: 190
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0d6403f4e4ece434b9b7a8e604b1b9c7
-      internalID: -1826214663
+      spriteID: c6e5df2ef6056a920800000000000000
+      internalID: 3001174643168861804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_24_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1343
+        width: 996
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67f9b334c8920c90800000000000000
+      internalID: -7205028485390534802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_24_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 926
+        width: 978
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92df45d28ccea4250800000000000000
+      internalID: 5929812203884838185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_24_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 516
+        width: 972
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f76eab579361e080800000000000000
+      internalID: -9159930665365510157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_24_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 121
+        width: 976
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f61aed8f41e9ae60800000000000000
+      internalID: 7974152347035768561
       vertices: []
       indices: 
       edges: []
@@ -122,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 0af12b74141a11c4a884edf88ed06747
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +237,11 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      2_game_background_0: -1826214663
+      atlas_24_0: 3001174643168861804
+      atlas_24_1: -7205028485390534802
+      atlas_24_2: 5929812203884838185
+      atlas_24_3: -9159930665365510157
+      atlas_24_4: 7974152347035768561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
