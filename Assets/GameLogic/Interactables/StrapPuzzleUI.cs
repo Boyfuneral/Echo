@@ -11,6 +11,7 @@ public class StrapPuzzleUI : MonoBehaviour
     public GameObject interactableObject;
     public MoveScript playerMovement;
     public MirrorInteractable mirrorInteract;
+    public StrapInteract strapInteract;
 
     void Update()
     {
@@ -39,7 +40,9 @@ public class StrapPuzzleUI : MonoBehaviour
     void PuzzleSolved()
     {
         Debug.Log("Puzzle solved");
+        strapInteract.RevealPlayer();
         playerMovement.isTrapped = false;
+        playerMovement.canMove = true;
         playerMovement.rb.gravityScale = 1;
         gameObject.SetActive(false);
         PuzzleManager.Instance.EndPuzzle();
