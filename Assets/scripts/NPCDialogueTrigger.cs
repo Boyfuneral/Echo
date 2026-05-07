@@ -10,6 +10,7 @@ public class NPCDialogueTrigger : MonoBehaviour
     private TypewriterText typewriter;
     private bool playerInRange = false;
     private bool started = false;
+    public ScaryDialogueEffects scaryEffects;
 
     void Start()
     {
@@ -34,6 +35,7 @@ public class NPCDialogueTrigger : MonoBehaviour
             {
                 started = true;
                 StartCoroutine(ShowDialogue());
+                scaryEffects.PlayScaryEffect();
             }
         }
     }

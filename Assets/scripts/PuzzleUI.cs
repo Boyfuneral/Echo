@@ -16,6 +16,7 @@ public class PuzzleUI : MonoBehaviour
     public TextMeshProUGUI puzzleWordText;
     public TMP_InputField answerInput;
     public TextMeshProUGUI puzzleQuestionText;
+    public ScaryDialogueEffects scaryEffects;
 
     private int puzzleStage = 0;
 
@@ -65,8 +66,10 @@ public class PuzzleUI : MonoBehaviour
 
     public void ChooseWrong()
     {
+        scaryEffects.PlayScaryEffect();
         if (resultText != null)
             resultText.text = "That does not belong here.";
+        
     }
 
     public void OpenClockWordPuzzle()
@@ -172,11 +175,13 @@ public class PuzzleUI : MonoBehaviour
         }
 
         if (resultText != null)
+            scaryEffects.PlayScaryEffect();
             resultText.text = "Wrong... the barrier tightens.";
     }
 
     public void ClosePuzzle()
     {
+        scaryEffects.PlayScaryEffect();
         if (puzzleBox != null)
             puzzleBox.SetActive(false);
 

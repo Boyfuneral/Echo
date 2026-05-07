@@ -9,16 +9,21 @@ public class PlayerMovement2D : MonoBehaviour
     private SpriteRenderer sr;
     private bool isGrounded = false;
 
+    private Animator anim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
     void Update()
     {
         float moveInput = -Input.GetAxisRaw("Horizontal"); 
 
         rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
+
+        anim.SetFloat("PlayerSpeed", Mathf.Abs(rb.linearVelocity.x));
 
         if (moveInput > 0)
             sr.flipX = false;
@@ -29,6 +34,8 @@ public class PlayerMovement2D : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
+
+       
     }
 
 

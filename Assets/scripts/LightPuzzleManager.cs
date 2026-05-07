@@ -31,6 +31,7 @@ public class LightPuzzleManager : MonoBehaviour
     public Sprite scrollSprite;
     public Sprite blendedSprite;
     public Sprite clipboardSprite;
+    public ScaryDialogueEffects scaryEffects;
 
     void Start()
     {
@@ -162,6 +163,7 @@ public class LightPuzzleManager : MonoBehaviour
             light.SetSuccess();
 
         yield return StartCoroutine(ShowRoundMessage( "Proceed to Next Trial."));
+        scaryEffects.PlayScaryEffect();
 
         if (barrierToOpen != null)
             barrierToOpen.SetActive(false);
@@ -253,6 +255,8 @@ public class LightPuzzleManager : MonoBehaviour
 
     string GetFailureMessage()
     {
+        scaryEffects.PlayScaryEffect();
+        
         switch (currentRound)
         {
             case 1:
