@@ -24,7 +24,7 @@ public class PuzzleManager : MonoBehaviour
         puzzleOverlay.SetActive(true);
         puzzleUI.SetActive(true);
 
-        player.canMove = false;
+        //player.canMove = false;
     }
 
     public void EndPuzzle()
@@ -37,7 +37,7 @@ public class PuzzleManager : MonoBehaviour
         isPuzzleActive = false;
         puzzleOverlay.SetActive(false);
     
-        player.canMove = true;
+        //player.canMove = true;
     
         currentPuzzleUI = null;
     }

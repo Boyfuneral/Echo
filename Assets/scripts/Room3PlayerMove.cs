@@ -8,11 +8,13 @@ public class Room3PlayerMove : MonoBehaviour
     private Vector2 moveInput;
 
     private SpriteRenderer sr;
+    private Animator anim;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -29,6 +31,7 @@ public class Room3PlayerMove : MonoBehaviour
         {
             sr.flipX = true;
         }
+        anim.SetFloat("PlayerSpeed", Mathf.Abs(moveInput.x) + Mathf.Abs(moveInput.y));
     }
 
     private void FixedUpdate()

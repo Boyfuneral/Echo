@@ -18,14 +18,16 @@ public class MoveScript : MonoBehaviour
 
     private SpriteRenderer sr;
     public Rigidbody2D rb;
-
-    public bool canMove = false;
+    private Animator anim;
+    //public bool canMove = true;
     public bool isTrapped;
 
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+
     }
 
     // /*
@@ -38,10 +40,10 @@ public class MoveScript : MonoBehaviour
 
     void Update()
     {
-        if (!canMove || isTrapped) 
+        if (isTrapped) 
         {
             rb.linearVelocity = new Vector2(0, 0);
-            rb.gravityScale = 0; 
+            //rb.gravityScale = 0; 
             return;
         }
         
@@ -51,6 +53,7 @@ public class MoveScript : MonoBehaviour
         }
 
         float horizontalInput = Input.GetAxisRaw("Horizontal");
+        
 
         rb.linearVelocity = new Vector2(horizontalInput * speed, rb.linearVelocity.y);
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
@@ -59,7 +62,7 @@ public class MoveScript : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
-
+        anim.SetFloat("PlayerSpeed", Mathf.Abs(rb.linearVelocity.x));
         UpdateSpriteDirection(horizontalInput);
         
         

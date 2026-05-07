@@ -37,7 +37,7 @@ public class DialogueManager : MonoBehaviour
         if (dialogueLines == null || dialogueLines.Length == 0)
             return;
 
-        playerMovement.canMove = false;
+        //playerMovement.canMove = false;
 
         dialoguePanel.SetActive(true);
         dialogueActive = true;
@@ -94,7 +94,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
 
         onDialogueFinished?.Invoke();
-        playerMovement.canMove = true;
+        //playerMovement.canMove = true;
     }
 
     void Update()
