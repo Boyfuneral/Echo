@@ -313,7 +313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194791969}
   - component: {fileID: 194791970}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WallBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2151,7 +2151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 961490763}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Boundaries
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2304,8 +2304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 510, y: 324}
-  m_SizeDelta: {x: 30, y: 30}
+  m_AnchoredPosition: {x: 200, y: 170}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1003111314
 MonoBehaviour:
@@ -2601,7 +2601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1105369955}
   - component: {fileID: 1105369956}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WallLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3378,7 +3378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1428924003}
   - component: {fileID: 1428924004}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WalllTOp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4307,7 +4307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1704044228}
   - component: {fileID: 1704044229}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WallRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4849,8 +4849,8 @@ MonoBehaviour:
   isFaultyPair: 1
   isLeftSide: 1
   puzzleManager: {fileID: 1822969014}
-  clueSprite: {fileID: 0}
-  inspectionManager: {fileID: 0}
+  clueSprite: {fileID: -7278560722561848521, guid: f00818a80dcc8f24394640cacb175c53, type: 3}
+  inspectionManager: {fileID: 1787644891}
 --- !u!1 &1764422797
 GameObject:
   m_ObjectHideFlags: 0
@@ -5364,7 +5364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5467,8 +5467,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 550, y: 350}
-  m_SizeDelta: {x: 350, y: 320}
+  m_AnchoredPosition: {x: 850, y: 600}
+  m_SizeDelta: {x: 860, y: 900}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2064300244
 MonoBehaviour:

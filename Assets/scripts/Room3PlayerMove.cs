@@ -7,9 +7,12 @@ public class Room3PlayerMove : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
 
+    private SpriteRenderer sr;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -17,6 +20,15 @@ public class Room3PlayerMove : MonoBehaviour
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
         moveInput = moveInput.normalized;
+
+        if (moveInput.x > 0)
+        {
+            sr.flipX = false;
+        }
+        else if (moveInput.x < 0)
+        {
+            sr.flipX = true;
+        }
     }
 
     private void FixedUpdate()
