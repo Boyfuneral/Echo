@@ -6,7 +6,7 @@ public LayerMask interactLayer;
     private InteractableHighlight currentHighlight;
 
     void Start() {
-        Cursor.visible = true; 
+        //Cursor.visible = true; 
         Cursor.lockState = CursorLockMode.Confined; 
     }
 

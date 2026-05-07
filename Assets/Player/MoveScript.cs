@@ -9,11 +9,17 @@ public class MoveScript : MonoBehaviour
     //public Sprite leftSprite;
     //public Sprite rightSprite;
 
+    public float jumpForce = 8f;
+    public bool isGrounded;
+    public Transform groundCheck;
+    public float groundCheckRadius = 0.2f;
+    public LayerMask groundLayer;
+
 
     private SpriteRenderer sr;
     public Rigidbody2D rb;
 
-    public bool canMove = true;
+    public bool canMove = false;
     public bool isTrapped;
 
     void Awake()
@@ -26,21 +32,33 @@ public class MoveScript : MonoBehaviour
 
     private void Start() {
         //specific to scene 1
-        isTrapped = true;
-        rb.gravityScale = 0; 
+        //isTrapped = true;
+        //rb.gravityScale = 0; 
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (!canMove || isTrapped) 
         {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(0, 0);
+            rb.gravityScale = 0; 
             return;
+        }
+        
+        if(isTrapped == false)
+        {
+            rb.gravityScale = 1; 
         }
 
         float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         rb.linearVelocity = new Vector2(horizontalInput * speed, rb.linearVelocity.y);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        }
 
         UpdateSpriteDirection(horizontalInput);
         
