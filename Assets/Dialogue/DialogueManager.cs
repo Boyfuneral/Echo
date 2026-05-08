@@ -26,6 +26,10 @@ public class DialogueManager : MonoBehaviour
     public bool IsDialogueActive => dialogueActive;
     public MoveScript playerMovement;
 
+    public float autoAdvanceDelay = 2f;
+
+    private Coroutine typingCoroutine;
+
     void Awake()
     {
         Instance = this;
@@ -56,14 +60,6 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
-        if (isTyping)
-        {
-            StopAllCoroutines();
-            dialogueText.text = currentLine;
-            isTyping = false;
-            return;
-        }
-
         if (lines.Count == 0)
         {
             EndDialogue();
@@ -71,7 +67,13 @@ public class DialogueManager : MonoBehaviour
         }
 
         currentLine = lines.Dequeue();
-        StartCoroutine(TypeLine(currentLine));
+
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+        }
+
+        typingCoroutine = StartCoroutine(TypeLine(currentLine));
     }
 
     IEnumerator TypeLine(string line)
@@ -86,6 +88,10 @@ public class DialogueManager : MonoBehaviour
         }
 
         isTyping = false;
+
+        yield return new WaitForSeconds(autoAdvanceDelay);
+
+        DisplayNextLine();
     }
 
     void EndDialogue()
@@ -110,8 +116,28 @@ public class DialogueManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
-            DisplayNextLine();
+            // ONLY skip current typing animation
+            if (isTyping)
+            {
+                if (typingCoroutine != null)
+                {
+                    StopCoroutine(typingCoroutine);
+                }
+
+                dialogueText.text = currentLine;
+
+                isTyping = false;
+
+                StartCoroutine(AutoContinueAfterSkip());
+            }
         }
+    }
+
+    IEnumerator AutoContinueAfterSkip()
+    {
+        yield return new WaitForSeconds(autoAdvanceDelay);
+
+        DisplayNextLine();
     }
 
 }
