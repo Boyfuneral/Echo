@@ -11,6 +11,8 @@ public class StrapPuzzleUI : MonoBehaviour
     public GameObject interactableObject;
     public MoveScript playerMovement;
     public MirrorInteractable mirrorInteract;
+    public StrapInteract strapInteract;
+    public ScaryEffectAlternative Scaryeffect;
 
     void Update()
     {
@@ -39,13 +41,16 @@ public class StrapPuzzleUI : MonoBehaviour
     void PuzzleSolved()
     {
         Debug.Log("Puzzle solved");
+        strapInteract.RevealPlayer();
         playerMovement.isTrapped = false;
+        //playerMovement.canMove = true;
         playerMovement.rb.gravityScale = 1;
         gameObject.SetActive(false);
         PuzzleManager.Instance.EndPuzzle();
         roomController.CompleteRoom();
         interactableObject.GetComponent<Collider2D>().enabled = false;
         mirrorInteract.GetComponent<Collider2D>().enabled = false;
+        Scaryeffect.PlayScaryEffect();
 
     }
 
@@ -63,5 +68,6 @@ public class StrapPuzzleUI : MonoBehaviour
         Debug.Log("Wrong puzzle reset");
         gameObject.SetActive(false);
         PuzzleManager.Instance.EndPuzzle();
+        Scaryeffect.PlayScaryEffect();
     }
 }

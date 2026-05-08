@@ -1,13 +1,21 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.Rendering.Universal;
+using Unity.Cinemachine;
+using Unity.Cinemachine.Editor;
 
 public class ScaryDialogueEffects : MonoBehaviour
 {
     public Image flashImage;
+    public float flashDuration = 2.5f;
+    public float flashAlpha = 0.45f;
+    public int flickerCount = 6;
+    public float flickerSpeed = 0.08f;
     public Light[] lightsToFlicker;
     public AudioSource scarySound;
     public Camera mainCamera;
+    public CinemachineImpulseSource impulseSource;
 
     public float shakeAmount = 0.08f;
     public float shakeTime = 0.3f;
@@ -16,86 +24,92 @@ public class ScaryDialogueEffects : MonoBehaviour
 
     void Start()
     {
-        if (mainCamera == null)
-            mainCamera = Camera.main;
-
-        if (mainCamera != null)
-            originalCameraPosition = mainCamera.transform.position;
-
+        // Make sure flash starts invisible
         if (flashImage != null)
+        {
             flashImage.color = new Color(1, 0, 0, 0);
+        }
     }
 
     public void PlayScaryEffect()
     {
-        StartCoroutine(ScaryEffectRoutine());
-    }
 
-    IEnumerator ScaryEffectRoutine()
-    {
-        if (scarySound != null)
+        if (scarySound != null  && !scarySound.isPlaying)
+        {
             scarySound.Play();
+        }
 
-        StartCoroutine(ScreenFlash());
-        StartCoroutine(CameraShake());
-        StartCoroutine(FlickerLights());
+        // cinemachine camera shake
+        if (impulseSource != null)
+        {
+            impulseSource.GenerateImpulse();
+        }
 
-        yield return null;
+        StartCoroutine(PulseFlash());
+        //StartCoroutine(FlickerLights());
     }
 
-    IEnumerator ScreenFlash()
+    IEnumerator PulseFlash()
     {
         if (flashImage == null)
             yield break;
 
-        flashImage.color = new Color(1, 0, 0, 0.45f);
+        float halfDuration = flashDuration / 2f;
 
-        yield return new WaitForSeconds(0.12f);
+        // FIRST PULSE
+        yield return StartCoroutine(FadeFlash(0f, flashAlpha, halfDuration * 0.5f));
+        yield return StartCoroutine(FadeFlash(flashAlpha, 0f, halfDuration * 0.5f));
 
+        // SECOND PULSE
+        yield return StartCoroutine(FadeFlash(0f, flashAlpha, halfDuration * 0.5f));
+        yield return StartCoroutine(FadeFlash(flashAlpha, 0f, halfDuration * 0.5f));
+
+        // Ensure invisible at end
         flashImage.color = new Color(1, 0, 0, 0);
     }
 
-    IEnumerator CameraShake()
+    IEnumerator FadeFlash(float startAlpha, float endAlpha, float duration)
     {
-        if (mainCamera == null)
-            yield break;
-
         float timer = 0f;
 
-        while (timer < shakeTime)
+        while (timer < duration)
         {
-            float x = Random.Range(-shakeAmount, shakeAmount);
-            float y = Random.Range(-shakeAmount, shakeAmount);
-
-            mainCamera.transform.position = originalCameraPosition + new Vector3(x, y, 0);
-
             timer += Time.deltaTime;
+
+            float alpha = Mathf.Lerp(startAlpha, endAlpha, timer / duration);
+
+            flashImage.color = new Color(1, 0, 0, alpha);
+
             yield return null;
         }
 
-        mainCamera.transform.position = originalCameraPosition;
+        flashImage.color = new Color(1, 0, 0, endAlpha);
     }
-
-    IEnumerator FlickerLights()
-    {
-        if (lightsToFlicker == null)
-            yield break;
-
-        for (int i = 0; i < 6; i++)
-        {
-            foreach (Light light in lightsToFlicker)
-            {
-                if (light != null)
-                    light.enabled = !light.enabled;
-            }
-
-            yield return new WaitForSeconds(0.08f);
-        }
-
-        foreach (Light light in lightsToFlicker)
-        {
-            if (light != null)
-                light.enabled = true;
-        }
-    }
+    //IEnumerator FlickerLights()
+    //{
+       // if (lightsToFlicker == null || lightsToFlicker.Length == 0)
+       //     yield break;
+//
+       // for (int i = 0; i < flickerCount; i++)
+       // {
+       //     foreach (Light2D light in lightsToFlicker)
+       //     {
+       //         if (light != null)
+       //         {
+       //             light.enabled = !light.enabled;
+       //         }
+       //     }
+//
+       //     yield return new WaitForSeconds(flickerSpeed);
+       // }
+//
+       // // Ensure lights end ON
+       // foreach (Light2D light in lightsToFlicker)
+       // {
+       //     if (light != null)
+       //     {
+       //         light.enabled = true;
+       //     }
+       // }
+    //}
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class LightPuzzleManager : MonoBehaviour
 {
@@ -24,6 +25,13 @@ public class LightPuzzleManager : MonoBehaviour
     public GameObject lightPuzzleBox;
     public GameObject roundTextBox;
     public TextMeshProUGUI roundText;
+
+    public Image roundBoxImage;
+
+    public Sprite scrollSprite;
+    public Sprite blendedSprite;
+    public Sprite clipboardSprite;
+    public ScaryDialogueEffects scaryEffects;
 
     void Start()
     {
@@ -129,7 +137,7 @@ public class LightPuzzleManager : MonoBehaviour
     IEnumerator CompleteRound()
     {
         playerCanInput = false;
-
+        UpdateRoundVisual();
         yield return StartCoroutine(ShowRoundMessage(GetRoundCompleteMessage()));
 
         ResetLights();
@@ -154,7 +162,8 @@ public class LightPuzzleManager : MonoBehaviour
         foreach (PuzzleLight light in lights)
             light.SetSuccess();
 
-        yield return StartCoroutine(ShowRoundMessage("The path opens.\nRun."));
+        yield return StartCoroutine(ShowRoundMessage( "Proceed to Next Trial."));
+        scaryEffects.PlayScaryEffect();
 
         if (barrierToOpen != null)
             barrierToOpen.SetActive(false);
@@ -168,7 +177,7 @@ public class LightPuzzleManager : MonoBehaviour
         foreach (PuzzleLight light in lights)
             light.SetFail();
 
-        yield return StartCoroutine(ShowRoundMessage("Wrong.\nThe forest takes you."));
+        yield return StartCoroutine(ShowRoundMessage(GetFailureMessage()));
 
         if (player != null && playerSpawnPoint != null)
             player.transform.position = playerSpawnPoint.position;
@@ -200,12 +209,73 @@ public class LightPuzzleManager : MonoBehaviour
 
     string GetRoundStartMessage()
     {
-        return "ROUND " + currentRound;
+            switch (currentRound)
+        {
+            case 1:
+                return "Round 1";
+
+            case 2:
+                return "Round 2";
+
+            case 3:
+                return "MEMORY TRIAL III";
+
+            case 4:
+                return "SUBJECT ECHO\nMemory Fragment Recovery Test";
+
+            case 5:
+                return "Do you remember now, Echo?";
+        }
+
+        return "ERROR";
     }
 
     string GetRoundCompleteMessage()
     {
-        return "Good...";
+        switch (currentRound)
+        {
+            case 1:
+                return "Good.";
+
+            case 2:
+                return "Good. Keep going.";
+
+            case 3:
+                return "Subject response acceptable.";
+
+            case 4:
+                return "Memory returning.";
+
+            case 5:
+                return "Subject remembers.";
+        }
+
+        return "Complete.";
+    }
+
+    string GetFailureMessage()
+    {
+        scaryEffects.PlayScaryEffect();
+        
+        switch (currentRound)
+        {
+            case 1:
+                return "Wrong";
+
+            case 2:
+                return "Wrong. Try again.";
+
+            case 3:
+                return "Subject instability increasing.";
+
+            case 4:
+                return "Memory rejection detected.\nRestarting trial.";
+
+            case 5:
+                return "This is not your first attempt.";
+        }
+
+        return "Failure.";
     }
 
     public void ResetLights()
@@ -214,6 +284,22 @@ public class LightPuzzleManager : MonoBehaviour
         {
             if (light != null)
                 light.ResetVisible();
+        }
+    }
+
+    void UpdateRoundVisual()
+    {
+        if (currentRound <= 2)
+        {
+            roundBoxImage.sprite = scrollSprite;
+        }
+        else if (currentRound <= 3)
+        {
+            roundBoxImage.sprite = blendedSprite;
+        }
+        else
+        {
+            roundBoxImage.sprite = clipboardSprite;
         }
     }
 }

@@ -8,6 +8,14 @@ public class Room3SequenceInput : MonoBehaviour
 
     public GameObject lockedDoor;
     public GameObject openDoor;
+    public ScaryEffectAlternative scaryEffects;
+    public GameObject exit;
+
+     void Start()
+    {
+        lockedDoor.SetActive(true);
+        openDoor.SetActive(false);
+    }
 
     public void PressNumber(int number)
     {
@@ -20,7 +28,9 @@ public class Room3SequenceInput : MonoBehaviour
         {
             Debug.Log("Wrong code. Reset.");
             playerInput.Clear();
+            scaryEffects.PlayScaryEffect();
             return;
+            
         }
 
         if (playerInput.Count == correctSequence.Count)
@@ -29,6 +39,7 @@ public class Room3SequenceInput : MonoBehaviour
 
             lockedDoor.SetActive(false);
             openDoor.SetActive(true);
+            exit.SetActive(true);
 
             playerInput.Clear();
         }

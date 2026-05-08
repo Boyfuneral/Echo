@@ -21,6 +21,7 @@ public class Room3PuzzleManager : MonoBehaviour
     [Header("Doors")]
     public GameObject lockedDoor;
     public GameObject openDoor;
+    public ScaryEffectAlternative scaryEffects;
 
     private bool puzzleSolved = false;
 
@@ -43,6 +44,7 @@ public class Room3PuzzleManager : MonoBehaviour
         if (isFaultyPair)
         {
             ResetObservationPhase("ERROR. Faulty pair selected too early.");
+            scaryEffects.PlayScaryEffect();
             return;
         }
 
@@ -83,12 +85,14 @@ public class Room3PuzzleManager : MonoBehaviour
         if (pendingPairNumber == pairNumber && pendingSideIsLeft == isLeftSide)
         {
             ResetObservationPhase("ERROR. Same side clicked twice.");
+            scaryEffects.PlayScaryEffect();
             return;
         }
 
         if (pendingPairNumber != pairNumber)
         {
             ResetObservationPhase("ERROR. Pair sequence interrupted.");
+            scaryEffects.PlayScaryEffect();
             return;
         }
 
